@@ -12,6 +12,8 @@
 		56ACB1822300423E00B7F8E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56ACB1802300423E00B7F8E3 /* Main.storyboard */; };
 		56ACB1842300423E00B7F8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56ACB1832300423E00B7F8E3 /* Assets.xcassets */; };
 		56ACB1872300423E00B7F8E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56ACB1852300423E00B7F8E3 /* LaunchScreen.storyboard */; };
+		56ACB18F2300436600B7F8E3 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ACB18E2300436600B7F8E3 /* LoginTableViewController.swift */; };
+		56ACB19123006BB800B7F8E3 /* CadastroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ACB19023006BB800B7F8E3 /* CadastroTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		56ACB1832300423E00B7F8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56ACB1862300423E00B7F8E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56ACB1882300423E00B7F8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56ACB18E2300436600B7F8E3 /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		56ACB19023006BB800B7F8E3 /* CadastroTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				56ACB17C2300423E00B7F8E3 /* AppDelegate.swift */,
 				56ACB17E2300423E00B7F8E3 /* ViewController.swift */,
 				56ACB1802300423E00B7F8E3 /* Main.storyboard */,
+				56ACB19023006BB800B7F8E3 /* CadastroTableViewController.swift */,
+				56ACB18E2300436600B7F8E3 /* LoginTableViewController.swift */,
 				56ACB1832300423E00B7F8E3 /* Assets.xcassets */,
 				56ACB1852300423E00B7F8E3 /* LaunchScreen.storyboard */,
 				56ACB1882300423E00B7F8E3 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56ACB19123006BB800B7F8E3 /* CadastroTableViewController.swift in Sources */,
 				56ACB17F2300423E00B7F8E3 /* ViewController.swift in Sources */,
 				56ACB17D2300423E00B7F8E3 /* AppDelegate.swift in Sources */,
+				56ACB18F2300436600B7F8E3 /* LoginTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
