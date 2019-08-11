@@ -203,7 +203,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user-logo" translatesAutoresizingMaskIntoConstraints="NO" id="UrJ-l6-g66">
-                                                    <rect key="frame" x="87" y="-0.5" width="240" height="150.5"/>
+                                                    <rect key="frame" x="87" y="67" width="240" height="16"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
@@ -320,21 +320,20 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receber emails" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sy3-1Q-mlc">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receber emails" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sy3-1Q-mlc">
                                                     <rect key="frame" x="20" y="32" width="185" height="34"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sjn-iv-JPD">
-                                                    <rect key="frame" x="345" y="35" width="51" height="31"/>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sjn-iv-JPD">
+                                                    <rect key="frame" x="345" y="34" width="51" height="31"/>
                                                 </switch>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="sjn-iv-JPD" secondAttribute="bottom" constant="33.5" id="3Dd-MW-m7b"/>
-                                                <constraint firstAttribute="trailing" secondItem="sjn-iv-JPD" secondAttribute="trailing" constant="20" id="CoZ-KQ-7GV"/>
+                                                <constraint firstAttribute="trailing" secondItem="sjn-iv-JPD" secondAttribute="trailing" constant="40" id="CoZ-KQ-7GV"/>
                                                 <constraint firstItem="sjn-iv-JPD" firstAttribute="top" secondItem="pn0-Cs-z7M" secondAttribute="top" constant="35" id="GQP-IR-SR1"/>
-                                                <constraint firstItem="sjn-iv-JPD" firstAttribute="leading" secondItem="pn0-Cs-z7M" secondAttribute="leading" constant="345" id="aiX-cB-jZ3"/>
                                                 <constraint firstItem="Sy3-1Q-mlc" firstAttribute="top" secondItem="pn0-Cs-z7M" secondAttribute="top" constant="32" id="dfW-ja-ebR"/>
                                                 <constraint firstItem="Sy3-1Q-mlc" firstAttribute="leading" secondItem="pn0-Cs-z7M" secondAttribute="leading" constant="20" id="jb8-zD-laI"/>
                                                 <constraint firstAttribute="bottom" secondItem="Sy3-1Q-mlc" secondAttribute="bottom" constant="33.5" id="koU-NO-4CD"/>
